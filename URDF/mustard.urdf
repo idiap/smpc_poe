@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot name="bottle">
+<material name="brown">
+      <color rgba="1. 1. 0. .1"/>
+</material>
+	<link name="bottle">
+		<inertial>
+			<mass value="1."/>
+			<inertia  ixx="1000000." ixy="0.00"  ixz="0.00" iyy="1000000." iyz="0.00" izz="0.1" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0.08 0.025" rpy="1.5708 -0.3959 0"/>
+			<material name = 'brown'/>
+			<geometry>
+				<mesh filename="./006_mustard_bottle/google_512k/nontextured.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0.08 0.025" rpy="1.5708 -0.3959 0"/>
+			<geometry>
+				<mesh filename="./006_mustard_bottle/google_512k/nontextured.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+</robot>

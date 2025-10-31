@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="bottle">
+<material name="brown">
+      <color rgba="0. 1. 0. .1"/>
+</material>
+	<link name="bottle">
+		<visual>
+			<origin xyz="0 0.08 0.025" rpy="1.5708 -0.3959 0"/>
+			<material name = 'brown'/>
+			<geometry>
+				<mesh filename="./006_mustard_bottle/google_512k/nontextured.stl"/>
+			</geometry>
+		</visual>
+	</link>
+
+</robot>
